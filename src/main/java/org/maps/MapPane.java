@@ -32,7 +32,7 @@ public class MapPane extends BorderPane {
                 } else if (e.getButton() == MouseButton.SECONDARY) {
                     p.setFill(Color.SLATEGRAY);
                 } else {
-                    p.setFill(null);
+                    p.setFill(Color.BLACK);
                 }
             });
 

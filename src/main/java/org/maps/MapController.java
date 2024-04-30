@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 public class MapController extends Application {
     @Override
     public void start(Stage stage) {
-        MapPane map = new MapPane("svcoords.txt");
+        MapPane map = new MapPane("uscoords.txt");
         Scene scene = new Scene(map, 1200, 800);
         scene.setFill(Color.BLACK);
         stage.setTitle("Maps");
